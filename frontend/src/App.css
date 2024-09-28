@@ -1,0 +1,182 @@
+/* Import font (place this in your CSS file) */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Apply to the body for global text styling */
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif; /* Global font family */
+}
+
+/* Apply to the entire login area */
+.login {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #F5F5F5;
+  font-family: 'Kanit', sans-serif; /* Font for login area */
+}
+
+/* Apply to header text */
+.header {
+  text-align: center;
+  font-family: 'Kanit', sans-serif; /* Font for header */
+}
+
+/* Apply to login card */
+.card-login {
+  overflow-y: scroll;
+  width: 70%;
+  height: auto;
+  max-height: 550px;
+  font-family: 'Kanit', sans-serif; /* Font for card content */
+}
+
+/* Apply to images logo (no font needed here, but ensure styling is correct) */
+.images-logo {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Apply to login form button */
+.login-form-button {
+  width: 100%;
+  font-family: 'Kanit', sans-serif; /* Font for buttons */
+}
+
+/* Vehicle Management Styles */
+
+.vehicle-manage-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f4f8; /* Light background */
+}
+
+.header-row {
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 28px;
+  color: #003366; /* Dark blue color */
+}
+
+.header-actions {
+  text-align: end;
+}
+
+.add-button {
+  font-size: 16px;
+  background-color: #FFD700; /* Gold */
+  border-color: #FFD700; /* Gold */
+  color: #003366; /* Dark blue text */
+  border-radius: 8px;
+}
+
+.add-button:hover {
+  background-color: #e6c200; /* Slightly darker gold on hover */
+}
+
+.toggle-view-button {
+  margin-right: 8px;
+}
+
+.search-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end; /* Align search input to the right */
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #003366; /* Dark blue border */
+}
+
+.card-container {
+  margin-top: 20px;
+}
+
+.car-image {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.car-card {
+  background-color: #fff;
+  color: #003366; /* Dark blue text */
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.car-license {
+  font-size: 18px;
+  color: #003366; /* Dark blue for license plate */
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.edit-button, .delete-button {
+  flex: 1;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: #003366; /* Dark blue */
+  color: #fff; /* White text */
+}
+
+.edit-button:hover {
+  background-color: #002244; /* Slightly darker blue on hover */
+}
+
+.delete-button {
+  background-color: #FFD700; /* Gold */
+  border: none; /* Remove border */
+  color: #003366; /* Dark blue text */
+}
+
+.delete-button:hover {
+  background-color: #e6c200; /* Slightly darker gold on hover */
+}
+
+.card-actions .delete-button {
+  /* Ensure the delete button matches the size of the edit button */
+  width: 100%;
+}
+
+.list-or-card-container {
+  margin-top: 20px;
+}
+
+.car-image-list {
+  height: 100px;
+  object-fit: cover;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.ant-list-item-meta-title {
+  font-size: 16px;
+}
+
+.ant-list-item-meta-description {
+  font-size: 14px;
+}
